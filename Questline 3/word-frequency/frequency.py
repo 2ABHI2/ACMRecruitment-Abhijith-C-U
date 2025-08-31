@@ -1,9 +1,5 @@
-# word_frequency.py
-
-# ask the user for a paragraph
+#word frequency counter
 text = input("Enter a paragraph:\n")
-
-# make everything lowercase and split into words
 text = text.lower()
 for ch in ".,!?":
     text = text.replace(ch, "")
