@@ -1,0 +1,22 @@
+Bug Explanation: Find the Second Largest Number
+
+Original Problem in Code:
+1. The code used -9999999 as the starting value for largest and second.
+   - This is risky because if the list has numbers smaller than -9999999,
+     the program will not work correctly.
+
+2. The condition `elif num > second:` did not check if the number is different
+   from the largest. This means if the largest number repeats, the program may
+   wrongly treat it as the second largest.
+
+Our Fix:
+1. Instead of -9999999, we used `float('-inf')` which safely represents
+   negative infinity in Python.
+
+2. We added a check `num != largest` to make sure the second largest is a
+   different number.
+
+3. If there is no second largest (for example, all numbers are the same),
+   the program now returns a clear message instead of giving a wrong result.
+
+This way, the code is more reliable, beginner-friendly, and works for all inputs.
