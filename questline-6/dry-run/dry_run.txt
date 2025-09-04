@@ -1,0 +1,53 @@
+What is Pseudocode?
+Pseudocode is like fake code. It is not a real programming language, but a simple way of writing steps in plain English mixed with a coding style.  
+It helps us think about the logic before we write real code.
+
+
+ Pseudocode Example
+    ----------
+
+SET x = 0
+SET y = 5
+WHILE x < 3
+    x = x + 1
+    y = y + 2
+END WHILE
+PRINT x
+PRINT y
+
+
+
+Step by Step Dry Run (Trace Table)
+      --------------
+
+_______________________________________________________________________
+                                                                       |
+Step   | x   | y   | Condition (x < 3?) |    What is Happening         |
+_______________________________________________________________________|
+                                                                       |
+Start  | 0   | 5   | true                | Begin with x=0, y=5         |
+1      | 1   | 7   | true                | Added 1 to x, 2 to y        |
+2      | 2   | 9   | true                | Added 1 to x, 2 to y        |
+3      | 3   | 11  | false               | Loop ends here              | 
+_______|_________________________________|_____________________________|
+
+Final Output
+3
+11
+
+
+Small Validation Script (this is optional)
+     ------------
+
+>Python code to check:
+
+x = 0
+y = 5
+while x < 3:
+    x = x + 1
+    y = y + 2
+print(x)
+print(y)
+output would be:
+3
+11
