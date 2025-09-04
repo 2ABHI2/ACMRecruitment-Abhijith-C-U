@@ -12,5 +12,5 @@ for w in words:
         counts[w] = 1
 sorted_counts = sorted(counts.items(), key=lambda x: x[1], reverse=True)
 for word, count in sorted_counts:
-    print(word, "→", count)
+  print(word, "=", count)
     
