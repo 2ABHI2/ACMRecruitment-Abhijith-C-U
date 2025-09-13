@@ -1,0 +1,11 @@
+RIVER RIDDLE
+
+step-1 -  first we take the goat across the river and leave the wolf and cabbage 
+ 
+step-2 - come back alone . take the wolf across and bring back the goat back
+
+step-3 - leave the goat and take the cabbage across the river
+
+step-4 - come back alone and take the goat across the river
+
+NOW EVERYONE IS ACROSS THE RIVER SAFELY
