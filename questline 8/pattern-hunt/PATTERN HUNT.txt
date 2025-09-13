@@ -1,0 +1,11 @@
+PATTERN HUNT
+
+2,6,12,20,30,42
+
+explanation
+
+from 2 to 6 difference is "+4"
+from 6 to 12 difference is "+6"
+from 12 to 20 difference is "+8"
+The difference increases by "+2" 
+so continuing the sequence the next 2 term should be 30 (+10) and 42 (+12)
