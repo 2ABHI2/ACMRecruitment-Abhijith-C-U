@@ -6,9 +6,6 @@ completed sudoku
 3 4 1 2
 2 1 4 3
 
-
-
-
  THE LOGIC AND STEP I TOOK TO SOLVE THE PUZZLE
  
 step 1 - Look at the small 2×2 square in the top-left corner. That little box already has a 3 and the only place left for the number 1 in that box is the top-left cell. So put 1 there.
