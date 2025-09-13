@@ -1,9 +1,10 @@
 THREE SWITCHES
 
 First, we TURN ON the 1st switch and wait for 10 minutes. Then  turn it off and now we  TURN ON the 2nd switch AND we go inside the room.
-If the bulb is glowing, it belongs to the 2nd switch. 
+If the bulb is glowing, it is the 2nd switch. 
 If it is not glowing, go touch it.
 If it feels hot, it was the 1st switch because when we keep switch 1 on for 10 minutes, the bulb connected to it will glow and become hot 
 if it is cold, then it is the 3rd switch.
+
 
 
