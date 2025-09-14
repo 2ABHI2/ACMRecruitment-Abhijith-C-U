@@ -1,0 +1,12 @@
+  BRIDGE-TOURCH
+   ---------
+
+first 1 and 2 minute go together cross the bridge ( it takes 2 minute)
+and 1 bring the torch back to 7 and 10 ( total 3 minute now) and 7 and 10 cross together (it takes 10 minute)
+and 2 bring the torch back to 1  (now total minute taken is 15 minute).
+Now 1 and 2 again cross the bridge together (takes 2 min) and everybody reached the other side 
+The total time taken should be 17 minute 
+
+REASONING
+
+7 and 10 should cross together so that long time come only once. 1 and 2 should be the returners because they take the least mount of time 
