@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-image: url("file:///C:/Users/abhij/OneDrive/Documents/acm/download%20(1).jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  color: #333;
+}
+#number {
+  font-size: 100px;
+  margin: 20px 0;
+}
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+}
+button:hover {
+  background: #388e3c;
+}

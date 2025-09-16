@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Click Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Click Counter</h1>
+  <p>Each time you click, the number will grow. Reset takes it back to zero.</p>
+  <div id="number">0</div>
+  <button onclick="addOne()">+1</button>
+  <button onclick="reset()">Reset</button>
+  <script>
+    let count = 0;
+    function addOne() {
+      count = count + 1;
+      document.getElementById("number").textContent = count;
+    }
+    function reset() {
+      count = 0;
+      document.getElementById("number").textContent = count;
+    }
+  </script>
+</body>
+</html>
